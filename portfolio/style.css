@@ -1,0 +1,39 @@
+h1 {
+  color: navy;
+}
+/** {
+  border: solid;
+}*/
+body {
+  background-color: skyblue;
+}
+
+.header {
+  background-color: orangered;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-description {
+    background-image: url("https://image.freepik.com/free-vector/gradient-geometric-background_52683-54199.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  
+}
+
+h2,
+p {
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
